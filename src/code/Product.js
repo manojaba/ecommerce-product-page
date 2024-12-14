@@ -60,11 +60,11 @@ export default function Product() {
     }
 
     return (
-        <div className="relative" >
+        <div className="relative  h-fit" >
             <Navbar toggleMenu={toggleMenu} toggleCart={toggleCart} cartProduct={cartProduct} />
             {openMenu && <Menubar toggleMenu={toggleMenu} />}
 
-            <div className="md:flex md:mx-[213px] 2xl:mx-[270px] md:mt-[90px] md:mb-[132px] md:gap-[80px] md:items-center xl:gap-[125px] 2xl:gap-[200px]">
+            <div className="md:flex md:mx-[213px] 2xl:mx-[270px] md:pt-[90px] md:pb-[132px] md:gap-[80px] md:items-center xl:gap-[125px] 2xl:gap-[200px] ">
                 <ProductImage toggleLightbox={toggleLightbox} />
                 <div className="px-[24px] md:px-0 pt-[24px] md:w-1/2">
                     <h3 className="font-kumbh font-bold text-[12px] md:text-[13px] md:tracking-[2px] tracking-[1.85px] text-customDarkGrayishBlue mb-[16px]">  SNEAKER COMPANY</h3>

@@ -9,7 +9,7 @@ export default function ProductImage({ toggleLightbox }) {
     }
     return (
         <div className=" md:w-1/2 ">
-            <div className=""  >
+            <div className="cursor-pointer"  >
                 {clickedImage === 'picture1' && <div className="relative   " >
                     <img className="w-full   md:rounded-[15px]" src=".\images\image-product-1.jpg" alt='product-1 large' onClick={toggleLightbox}></img>
                     <div className="bg-white w-[40px] h-[40px] rounded-full flex items-center justify-center absolute left-4 top-1/2 transform -translate-y-1/2 md:hidden" onClick={() => toggleImage('picture4')}>

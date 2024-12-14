@@ -1,9 +1,9 @@
 export default function Navbar({ toggleMenu, toggleCart, cartProduct }) {
     return (
-        <div className="flex justify-between items-center mx-[24px] md:mx-[165px]    md:border-customLightGrayishBlue border-b-2 2xl:mx-[220px]  ">
+        <div className="flex justify-between items-center mx-[24px] md:mx-[165px]    md:border-customLightGrayishBlue border-b-[3px] 2xl:mx-[220px]  ">
             <div className="flex space-x-[56px]">
                 <div className="flex items-center space-x-[16px]  ">
-                    <img className="md:hidden h-[15px] w-auto " src='./images/icon-menu.svg' alt="hmaburger menu" onClick={toggleMenu}></img>
+                    <img className="md:hidden h-[15px] w-auto cursor-pointer " src='./images/icon-menu.svg' alt="hmaburger menu" onClick={toggleMenu}></img>
 
                     <img className="h-[20px]  cursor-pointer mt-[19px] mb-[25px]" src="./images\logo.svg" alt="logo"></img>
                 </div>

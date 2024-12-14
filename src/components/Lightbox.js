@@ -8,9 +8,9 @@ export default function Lightbox({ toggleLightbox }) {
         setClickedImage(imagename);
     }
     return (
-        <div className="border  bg-black bg-opacity-50 h-svh flex items-center justify-center absolute inset-0  ">
-            <div className="w-1/2 xl:w-[550px]">
-                <div className="relative">
+        <div className="  bg-black bg-opacity-50   flex items-center  justify-center absolute inset-0  ">
+            <div className="w-1/2 xl:w-[550px] ">
+                <div className="relative cursor-pointer">
                     {clickedImage === 'picture1' && <div className="relative   ">
                         <img className="w-full md:rounded-[15px]" src=".\images\image-product-1.jpg" alt='product-1 large'></img>
                         <div className="bg-white w-[40px] h-[40px] rounded-full flex items-center justify-center absolute -left-5 top-1/2 transform -translate-y-1/2 " onClick={() => toggleImage('picture4')}>
